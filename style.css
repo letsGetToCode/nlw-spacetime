@@ -50,6 +50,12 @@ nav {
   animation: entering 0.7s ease-in-out;
 }
 
+figcaption{
+  margin-top:12px;
+  color: white;
+  
+}
+
 .memory {
   display: flex;
   flex-direction: column;
@@ -109,6 +115,16 @@ aside {
   background-size: auto 100%;
 }
 
+button {
+  background-color: rgb(48, 41, 63);
+  border: 2px dashed white;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
 aside * {
   animation: entering 0.7s ease-in-out;
 }
@@ -126,7 +142,7 @@ aside p {
 }
 
 aside span {
-  font-size: 0.75rem;
+  font-size: 0.9 rem;
   color: #9e9ea0;
 }
 
