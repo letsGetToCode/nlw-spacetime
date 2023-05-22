@@ -8,6 +8,7 @@ function ola() {
     alert(
       "Alguns artigos que abordam temas impróprios para sua faixa etária ficarão indisponíveis."
     )
+    document.getElementById("postagem").style.display = "none"
   } else {
     alert("Fique a vontade para explorar todo os artigos do nosso site!")
   }
